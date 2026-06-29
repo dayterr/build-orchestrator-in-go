@@ -23,6 +23,7 @@ type Task struct {
 	State         State
 	Image         string
 	AmountCPU     int
+	Memory        int
 	AmountDisk    int
 	ExposedPorts  nat.PortSet
 	PortBindings  map[string]string
