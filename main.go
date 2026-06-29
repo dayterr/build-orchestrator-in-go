@@ -1,1 +1,5 @@
-package build_orchestrator_in_go
+package main
+
+func main() {
+
+}
