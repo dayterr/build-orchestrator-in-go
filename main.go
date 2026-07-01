@@ -1,12 +1,13 @@
 package main
 
 import (
-	"build-orchestrator-in-go/manager"
-	"build-orchestrator-in-go/node"
-	"build-orchestrator-in-go/task"
-	"build-orchestrator-in-go/worker"
 	"fmt"
 	"time"
+
+	"github.com/dayterr/build-orchestrator-in-go/manager"
+	"github.com/dayterr/build-orchestrator-in-go/node"
+	"github.com/dayterr/build-orchestrator-in-go/task"
+	"github.com/dayterr/build-orchestrator-in-go/worker"
 
 	"github.com/golang-collections/collections/queue"
 	"github.com/google/uuid"
